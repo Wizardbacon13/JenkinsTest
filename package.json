@@ -1,16 +1,4 @@
 {
-  "version": "1.0.0",
-  "description": "Test package for semantic-release tutorial",
-  "main": "index.js",
-  "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Long Phan <longphan0619@gmail.com>",
-  "License": "ISC",
-  "devDependencies": {
+  "name": "001-semantic-release-tutorial",
 
-      "@semantic-release/git": "^10.0.1",
-      "semantic-release": "^24.1.2"
-  }
 }
