@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://https://github.com/Wizardbacon13/JenkinsTest'  // Change to your actual repo URL
+                git 'https://github.com/Wizardbacon13/JenkinsTest'  // Change to your actual repo URL
             }
         }
 
