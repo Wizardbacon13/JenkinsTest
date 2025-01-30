@@ -24,7 +24,7 @@ pipeline {
                     def output = sh(script: "docker run --rm hello-world-test", returnStdout: true).trim()
 
                     // Check if the output matches "hello world"
-                    if (output == "hello world") {
+                    if (output == "Hello world") {
                         echo "true"  // Output is "hello world"
                     } else {
                         echo "false" // Output is not "hello world"
